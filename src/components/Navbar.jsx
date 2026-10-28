@@ -3,6 +3,7 @@ import personal from '../data/personal.json'
 
 const categories = [
   { id: 'software', label: 'Software Development', icon: '⌨️', enabled: true },
+  { id: 'data', label: 'Data Engineering', icon: '🗄️', enabled: true },
   { id: 'printing', label: '3D Printing', icon: '🖨️', enabled: false },
   { id: 'pcb', label: 'PCB Development', icon: '🔌', enabled: false },
   { id: 'aiml', label: 'AI / ML', icon: '🧠', enabled: false },

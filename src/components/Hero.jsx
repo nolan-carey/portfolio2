@@ -99,7 +99,13 @@ export default function Hero({ category = 'software' }) {
             animate={{ opacity: [1, 0.2, 1] }}
             transition={{ duration: 1.5, repeat: Infinity }}
           />
-          {category === 'printing' ? '3D Printing' : 'Software Development'}
+          {({
+            software: 'Software Development',
+            data: 'Data Engineering',
+            printing: '3D Printing',
+            pcb: 'PCB Development',
+            aiml: 'AI / ML',
+          }[category] || 'Software Development')}
         </motion.div>
 
         <motion.div

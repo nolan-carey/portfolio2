@@ -21,10 +21,11 @@ function MarqueeRow({ skills, direction, className = '' }) {
   )
 }
 
-export default function Skills() {
-  const half = Math.ceil(personal.skills.length / 2)
-  const row1 = personal.skills.slice(0, half)
-  const row2 = personal.skills.slice(half)
+export default function Skills({ category = 'software' }) {
+  const skills = (personal.skillsByCategory && personal.skillsByCategory[category]) || personal.skills
+  const half = Math.ceil(skills.length / 2)
+  const row1 = skills.slice(0, half)
+  const row2 = skills.slice(half)
 
   return (
     <section id="skills" className="py-24 px-6 relative">

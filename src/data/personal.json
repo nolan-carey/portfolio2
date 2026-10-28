@@ -2,9 +2,52 @@
   "name": "Nolan Carey",
   "title": "Full Stack Developer",
   "tagline": "I like making things that people actually enjoy using.",
-  "skills": ["React", "Node.js", "Express", "MongoDB", "PostgreSQL", "TypeScript", "Python", "Docker", "AWS", "GraphQL", "Redis", "Tailwind CSS"],
+  "skills": [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "PostgreSQL",
+    "TypeScript",
+    "Python",
+    "Docker",
+    "AWS",
+    "GraphQL",
+    "Redis",
+    "Tailwind CSS"
+  ],
   "socials": {
     "linkedin": "https://www.linkedin.com/in/nolan-carey/",
     "email": ""
+  },
+  "skillsByCategory": {
+    "software": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "PostgreSQL",
+      "TypeScript",
+      "Python",
+      "Docker",
+      "AWS",
+      "GraphQL",
+      "Redis",
+      "Tailwind CSS"
+    ],
+    "data": [
+      "Python",
+      "PySpark",
+      "SQL",
+      "Databricks",
+      "ETL",
+      "Data Pipelines",
+      "Lakehouse Architecture",
+      "Real Time Analytics",
+      "Data Modeling",
+      "SCD Type 2",
+      "Medallion Architecture",
+      "Redis"
+    ]
   }
 }

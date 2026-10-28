@@ -187,7 +187,10 @@
   {
     "id": 5,
     "template": "tech-breakdown",
-    "category": "software",
+    "category": [
+      "software",
+      "data"
+    ],
     "title": "PXO Production Intelligence",
     "summary": "Production finance and planning intelligence for a global VFX studio: bid scenario worksheets, planning networks, portfolio dashboards and document pipelines, working across six currencies and four languages.",
     "stack": [

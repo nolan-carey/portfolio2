@@ -128,7 +128,7 @@ function TiltCard({ project, index, onOpen }) {
 
 export default function Projects({ category = 'software' }) {
   const [openId, setOpenId] = useState(null)
-  const visible = projects.filter((p) => p.category === category)
+  const visible = projects.filter((p) => Array.isArray(p.category) ? p.category.includes(category) : p.category === category)
   const openProject = visible.find((p) => p.id === openId)
   const OpenTemplate = openProject ? templates[openProject.template] : null
 

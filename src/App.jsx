@@ -25,7 +25,7 @@ export default function App() {
           <Hero category={category} />
           <Projects category={category} />
           {/* Timeline paused for now */}
-          <Skills />
+          <Skills category={category} />
           <Contact />
         </>
       )}
