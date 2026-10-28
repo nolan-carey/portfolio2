@@ -4,7 +4,7 @@ export default function FeatureGrid({ project }) {
   const tiles = [
     ...project.features,
     ...project.facts.map((f) => `${f.label}: ${f.value}`),
-    ...project.stories.map((s) => `${s.title} — ${s.body}`),
+    ...project.stories.map((s) => `${s.title}: ${s.body}`),
   ]
 
   return (

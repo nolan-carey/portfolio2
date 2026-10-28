@@ -3,7 +3,7 @@
     "id": 1,
     "template": "case-study",
     "title": "Tailorly Studio",
-    "summary": "AI resume tailoring to the FAANG bar: rewrites your bullets to be quantified, system design aware and ATS safe, grounded in a base profile, then drafts the cover letter, outreach email and interview prep.",
+    "summary": "The AI resume tailor, built out of my own job hunt. A base profile keeps every rewrite grounded in your real experience while the AI lifts each bullet to the recruiter bar, then it drafts the cover letter, outreach email and interview prep to match.",
     "stack": [
       "React",
       "FastAPI",
@@ -37,32 +37,15 @@
       "Outreach email",
       "Interview prep"
     ],
-    "facts": [
-      {
-        "label": "Higher callback rate",
-        "value": "32%"
-      },
-      {
-        "label": "To tailor a resume",
-        "value": "5 min"
-      },
-      {
-        "label": "FAANG-bar prompts",
-        "value": "4+"
-      },
-      {
-        "label": "Steps end to end",
-        "value": "6"
-      }
-    ],
+    "facts": [],
     "stories": [
       {
         "title": "Born from my own job hunt",
-        "body": "Tailorly came out of rewriting the same resume bullets over and over for different postings. The core bet never changed: a base profile keeps the AI grounded in your real experience, so nothing gets invented — just reframed to the bar."
+        "body": "I got tired of rewriting the same bullets for every posting. The bet never changed: a base profile keeps the AI grounded in your real experience, so nothing gets invented. Good work, just reframed to the bar."
       },
       {
         "title": "What I would do differently",
-        "body": "I would ship the ATS parser earlier and tighten it aggressively. The moment the model had clean, structured bullets to work from, every later step got easier."
+        "body": "Ship the ATS parser earlier and tighten it hard. The moment the model had clean, structured bullets to work from, every later step got easier."
       }
     ],
     "category": "software",
@@ -105,11 +88,11 @@
     "stories": [
       {
         "title": "The core loop already works",
-        "body": "Kiva is still in progress, but the heart of it is real: a tradesperson speaks the job out loud, FastAPI turns that into structured quote data, and React Native renders a professional quote in seconds — then invoicing and follow-ups take over."
+        "body": "Kiva is still in progress, but the heart of it is real. A tradesperson speaks the job out loud, FastAPI turns that into structured quote data, and React Native renders a professional quote in seconds. Invoicing and follow ups take over from there."
       },
       {
         "title": "Why tradespeople first",
-        "body": "Quote-writing eats evenings. Most trades quote through WhatsApp or pen and paper, then chase payment one message at a time. Voice-first quoting meets them where the work happens, so the paperwork happens once instead of three times."
+        "body": "Quote writing eats evenings. Most trades still quote through WhatsApp or pen and paper, then chase payment one message at a time. Voice first quoting meets them where the work happens, so the paperwork happens once instead of three times."
       }
     ],
     "category": "software",
@@ -134,7 +117,7 @@
     "template": "story-mode",
     "category": "software",
     "title": "SimpleFin",
-    "summary": "A full market research and portfolio workspace: live indices, watchlists, stock deep dives, benchmark comparisons and a personal dashboard, in one app.",
+    "summary": "A market research and portfolio workspace I built as my own venture over two full years: live indices, watchlists, stock deep dives, benchmark comparisons and a personal dashboard, all in one app.",
     "stack": [
       "React",
       "Flask",
@@ -189,11 +172,11 @@
     "stories": [
       {
         "title": "Two years, one pair of hands",
-        "body": "SimpleFin was my own venture and I built it full time for two years — every piece of it, from the market data layer to the dashboards. Watching 157K people show up on the analytics was the moment it stopped being a side thing and became a product."
+        "body": "SimpleFin was my own venture and I built it full time for two years, every layer of it: market data, dashboards, the lot. Watching 157K people show up in the analytics was the moment it stopped being a side thing and became a product."
       },
       {
         "title": "What I would do differently",
-        "body": "I would bring in the design system earlier. Retrofitting consistency across six major screens taught me a lot, but starting with a design system from day one would have been kinder to both the code and the users."
+        "body": "Bring the design system in earlier. Retrofitting consistency across six major screens taught me a lot, but starting with it on day one would have been kinder to both the code and the users."
       }
     ],
     "ownership": "Founder",
@@ -206,7 +189,7 @@
     "template": "tech-breakdown",
     "category": "software",
     "title": "PXO Production Intelligence",
-    "summary": "Production finance and planning intelligence for a global VFX studio: bid scenario worksheets, planning networks, portfolio dashboards and document pipelines, in six currencies and four languages.",
+    "summary": "Production finance and planning intelligence for a global VFX studio: bid scenario worksheets, planning networks, portfolio dashboards and document pipelines, working across six currencies and four languages.",
     "stack": [
       "React",
       "React Flow",
@@ -249,25 +232,25 @@
       },
       {
         "title": "The hardest part",
-        "body": "The worksheet. Doing spreadsheet-grade UX for 180 shots with per-discipline day rates, multi-currency totals and four languages, all without a single number drifting, was the deep end of this build."
+        "body": "The worksheet. Spreadsheet grade UX for 180 shots with per discipline day rates, multi currency totals and four languages, all without a single number drifting. That was the deep end of this build."
       }
     ],
     "stackNotes": [
       {
         "tech": "React",
-        "reason": "The whole workspace is four screens of dense, composable UI (worksheets, networks, dashboards, settings) that all share state. React component model keeps that manageable while the ecosystem covers graphs and charts."
+        "reason": "Four screens of dense UI that all share one state: worksheets, networks, dashboards and settings. React keeps that composable, and the ecosystem covers graphs and charts so nothing gets hand rolled twice."
       },
       {
         "tech": "React Flow",
-        "reason": "Bid planning is a live node graph: weekly bid versions as nodes, dependencies as edges, and one active path highlighted. React Flow gives zoom, selection and edges out of the box instead of hand-rolling SVG by shot count."
+        "reason": "Bid planning is a live graph at heart. Weekly bids are nodes, dependencies are edges, and the active path lights up through all of it. React Flow handles zoom, selection and edges, so it stays accurate at any shot count."
       },
       {
         "tech": "Spreadsheet UX",
-        "reason": "Production finance lives in spreadsheets. Planners think in rows, filters and totals, so the bid worksheet speaks that language: 180 shots, per-discipline day rates, formulas-in-place and scenario copies — with zero retraining."
+        "reason": "Production finance thinks in spreadsheets. Rows, filters and totals are how planners read money, so the worksheet speaks that language directly: 180 shots live, formulas in place, and a scenario copy for every what if, with zero retraining."
       },
       {
         "tech": "i18n",
-        "reason": "The studio runs across regions, so numbers have to survive translation: labels, dates and currency formatting localize across four languages without a single total drifting."
+        "reason": "The studio runs across regions, so the numbers have to survive translation. Labels, dates and currency formatting localize across four languages, and the totals never drift."
       }
     ]
   },

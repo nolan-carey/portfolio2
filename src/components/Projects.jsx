@@ -150,7 +150,7 @@ export default function Projects({ category = 'software' }) {
         viewport={{ once: true }}
         transition={{ delay: 0.15, duration: 0.5 }}
       >
-        Click any card and it takes over the whole page.
+        Four builds, four ways to read them. Click one and it takes the whole page.
       </motion.p>
 
       <div

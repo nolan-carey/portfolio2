@@ -8,7 +8,7 @@ function imgSrc(img) {
 // animated count-up for metric values like "157K", "98.9%", "+1,817%"
 function CountUp({ value }) {
   const str = String(value)
-  const m = str.match(/^([+\-]?)([\d,.]+)(.*)$/)
+  const m = str.match(/^([+\-~<>]?)([\d,.]+)(.*)$/)
   const decimals = m ? (m[2].split('.')[1] || '').length : 0
   const num = m ? parseFloat(m[2].replace(/,/g, '')) : 0
   const mv = useMotionValue(0)
