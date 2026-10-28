@@ -1,0 +1,23 @@
+{
+  "software": [
+    { "year": "2021", "label": "Fell into code by accident", "detail": "One tutorial turned into a habit I couldn't shake." },
+    { "year": "2021", "label": "First real project", "detail": "Strung together a frontend and a backend. It actually ran." },
+    { "year": "2022", "label": "Learned to say no to spaghetti", "detail": "Got serious about clean APIs, databases and thinking in systems." },
+    { "year": "2022", "label": "My first real users", "detail": "Someone I didn't know used something I built. Weird feeling. Good one." },
+    { "year": "2023", "label": "Deploying with confidence", "detail": "Docker, CI/CD and clouds. Things finally stopped breaking in production." },
+    { "year": "2023", "label": "Performance clicked", "detail": "Caching and good indexes took a slow page from 8 seconds to 400ms." },
+    { "year": "2024", "label": "Scaling up", "detail": "Bigger apps, real complexity and integrations that test your patience." },
+    { "year": "2025", "label": "Sharpening the craft", "detail": "Better architecture, better tests, far fewer 2am fixes." },
+    { "year": "2026", "label": "Still building", "detail": "Learning something new every week and honestly enjoying it." }
+  ],
+  "printing": [
+    { "year": "2022", "label": "Bought my first printer", "detail": "A budget machine, endless tinkering, and one very warped print." },
+    { "year": "2022", "label": "From spaghetti to structure", "detail": "Bed leveling, supports and calibration became a daily habit." },
+    { "year": "2023", "label": "Designed my own parts", "detail": "Fusion 360 click by click, and a bracket that actually fit first try." },
+    { "year": "2023", "label": "Went CoreXY", "detail": "Fast, quiet, and a completely different league of layer lines." },
+    { "year": "2024", "label": "Print in place clicked", "detail": "Hinges, gears and mechanisms coming off the bed already moving." },
+    { "year": "2024", "label": "Materials unlocked", "detail": "PETG for outdoors, ABS for heat, and a dry box to keep them honest." },
+    { "year": "2025", "label": "Fixing real things", "detail": "Router jigs, cable hooks, phone mounts. The house runs on prints." },
+    { "year": "2026", "label": "Still printing", "detail": "Prototyping cases for my electronics projects and loving it." }
+  ]
+}

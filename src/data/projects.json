@@ -1,0 +1,395 @@
+[
+  {
+    "id": 1,
+    "template": "case-study",
+    "title": "Tailorly Studio",
+    "summary": "AI resume tailoring to the FAANG bar: rewrites your bullets to be quantified, system design aware and ATS safe, grounded in a base profile, then drafts the cover letter, outreach email and interview prep.",
+    "stack": [
+      "React",
+      "FastAPI",
+      "Python",
+      "AI"
+    ],
+    "role": "Full Stack",
+    "images": [
+      {
+        "src": "/images/tailorly-workspace.png",
+        "caption": "The workspace: base profile with skill pills, target job panel and the get hire ready checklist."
+      },
+      {
+        "src": "/images/tailorly-profiles.png",
+        "caption": "Onboarding: upload an existing resume and the parser pre-fills every step, or start from blank."
+      },
+      {
+        "src": "/images/tailorly-landing.png",
+        "caption": "Landing page: the promise, the numbers and the industries it is tuned for."
+      },
+      {
+        "src": "/images/tailorly-flow.png",
+        "caption": "The full flow: paste a JD and watch the rest get drafted, step by step."
+      }
+    ],
+    "features": [
+      "Build profile",
+      "Paste JD",
+      "Tailor resume",
+      "Cover letter",
+      "Outreach email",
+      "Interview prep"
+    ],
+    "facts": [
+      {
+        "label": "Higher callback rate",
+        "value": "32%"
+      },
+      {
+        "label": "To tailor a resume",
+        "value": "5 min"
+      },
+      {
+        "label": "FAANG-bar prompts",
+        "value": "4+"
+      },
+      {
+        "label": "Steps end to end",
+        "value": "6"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Born from my own job hunt",
+        "body": "Tailorly came out of rewriting the same resume bullets over and over for different postings. The core bet never changed: a base profile keeps the AI grounded in your real experience, so nothing gets invented — just reframed to the bar."
+      },
+      {
+        "title": "What I would do differently",
+        "body": "I would ship the ATS parser earlier and tighten it aggressively. The moment the model had clean, structured bullets to work from, every later step got easier."
+      }
+    ],
+    "category": "software",
+    "sideProject": true,
+    "inResume": false
+  },
+  {
+    "id": 2,
+    "template": "gallery-carousel",
+    "title": "Kiva",
+    "summary": "The quoting and invoicing app for UK tradespeople. Speak a job out loud and AI writes a professional quote, then handles invoicing and getting paid.",
+    "stack": [
+      "React Native",
+      "FastAPI",
+      "React",
+      "AI"
+    ],
+    "role": "Founder and sole full stack engineer",
+    "images": [
+      {
+        "src": "/images/kiva-landing.png",
+        "caption": "Kiva landing page: speak a job, send a quote in seconds."
+      }
+    ],
+    "features": [],
+    "facts": [
+      {
+        "label": "Set up in",
+        "value": "<10 min"
+      },
+      {
+        "label": "Platforms",
+        "value": "2"
+      },
+      {
+        "label": "Founding team",
+        "value": "1"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The core loop already works",
+        "body": "Kiva is still in progress, but the heart of it is real: a tradesperson speaks the job out loud, FastAPI turns that into structured quote data, and React Native renders a professional quote in seconds — then invoicing and follow-ups take over."
+      },
+      {
+        "title": "Why tradespeople first",
+        "body": "Write it when ready: what I learned watching tradespeople handle quoting today, and why voice changes that."
+      }
+    ],
+    "category": "software",
+    "status": "In progress",
+    "videos": [
+      {
+        "src": "/videos/kiva-iphone.mp4",
+        "caption": "The iPhone app, running live.",
+        "label": "iPhone app"
+      },
+      {
+        "src": "/videos/kiva-website.mp4",
+        "caption": "The marketing site, from top to bottom.",
+        "label": "Website"
+      }
+    ],
+    "sideProject": true,
+    "inResume": false
+  },
+  {
+    "id": 3,
+    "template": "story-mode",
+    "category": "software",
+    "title": "SimpleFin",
+    "summary": "A full market research and portfolio workspace: live indices, watchlists, stock deep dives, benchmark comparisons and a personal dashboard, in one app.",
+    "stack": [
+      "React",
+      "Flask",
+      "Python"
+    ],
+    "role": "Founder and sole full stack engineer",
+    "images": [
+      {
+        "src": "/images/simplefin-market-overview.png",
+        "caption": "Market overview: live indices, charts, the daily brief and market breadth at a glance."
+      },
+      {
+        "src": "/images/simplefin-portfolio.png",
+        "caption": "Portfolio workspace: watchlists, holdings, simulation mode and asset allocation."
+      },
+      {
+        "src": "/images/simplefin-stock-detail.png",
+        "caption": "Stock deep dive: key statistics, financials, dividends, price history and simulation."
+      },
+      {
+        "src": "/images/simplefin-benchmarks.png",
+        "caption": "Benchmarks: any stock against the S&P 500 with beta, drawdown and correlation."
+      },
+      {
+        "src": "/images/simplefin-sectors.png",
+        "caption": "Sector performance and market movers, updated through the session."
+      },
+      {
+        "src": "/images/simplefin-analytics.png",
+        "caption": "Real traction, straight from Google Analytics."
+      }
+    ],
+    "features": [],
+    "facts": [
+      {
+        "label": "7-day active users",
+        "value": "157K"
+      },
+      {
+        "label": "New user rate",
+        "value": "98.9%"
+      },
+      {
+        "label": "Active users",
+        "value": "85K"
+      },
+      {
+        "label": "Active user growth",
+        "value": "+1,817%"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Two years, one pair of hands",
+        "body": "SimpleFin was my own venture and I built it full time for two years — every piece of it, from the market data layer to the dashboards. Watching 157K people show up on the analytics was the moment it stopped being a side thing and became a product."
+      },
+      {
+        "title": "What I would do differently",
+        "body": "I would bring in the design system earlier. Retrofitting consistency across six major screens taught me a lot, but starting with a design system from day one would have been kinder to both the code and the users."
+      }
+    ],
+    "ownership": "Founder",
+    "commitment": "2 years full time",
+    "sideProject": false,
+    "inResume": true
+  },
+  {
+    "id": 5,
+    "template": "tech-breakdown",
+    "category": "software",
+    "title": "PXO Production Intelligence",
+    "summary": "Production finance and planning intelligence for a global VFX studio: bid scenario worksheets, planning networks, portfolio dashboards and document pipelines, in six currencies and four languages.",
+    "stack": [
+      "React",
+      "React Flow",
+      "Spreadsheet UX",
+      "i18n"
+    ],
+    "ownership": "Pixomondo",
+    "ownershipText": "Built for Pixomondo: production finance workspace, in-role",
+    "commitment": "In-role",
+    "sideProject": false,
+    "inResume": true,
+    "images": [
+      {
+        "src": "/images/pxo-planning.png",
+        "caption": "Bid planning: a network of weekly bids, versions and the active path, over an editable timeline."
+      },
+      {
+        "src": "/images/pxo-worksheet.png",
+        "caption": "Bid worksheet: 180 shots at once with facility, per-discipline day rates and multi-currency totals."
+      },
+      {
+        "src": "/images/pxo-dashboard.png",
+        "caption": "Portfolio dashboard: revenue by studio, cost breakdown and margin by project across regions."
+      },
+      {
+        "src": "/images/pxo-settings.png",
+        "caption": "Settings: four languages and six currencies, with live number formatting."
+      },
+      {
+        "src": "/images/pxo-documents.png",
+        "caption": "Document management: EFC workbooks wired to bid files for reconciliation."
+      }
+    ],
+    "features": [],
+    "facts": [
+      {
+        "label": "Revenue tracked",
+        "value": "2.57M"
+      },
+      {
+        "label": "Portfolio margin",
+        "value": "26.6%"
+      },
+      {
+        "label": "Currencies",
+        "value": "6"
+      },
+      {
+        "label": "Languages",
+        "value": "4"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The workflow before this",
+        "body": "Bids, forecasts and status reports used to live in separate workbooks. PXO pulls them into one place: bid versions over an editable planning timeline, worksheet scenarios you can duplicate and compare, and dashboards that roll everything up studio by studio."
+      },
+      {
+        "title": "The hardest part",
+        "body": "The worksheet. Doing spreadsheet-grade UX for 180 shots with per-discipline day rates, multi-currency totals and four languages, all without a single number drifting, was the deep end of this build."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "template": "case-study",
+    "category": "printing",
+    "title": "Project Six",
+    "summary": "A short, friendly pitch will live here once we fill it in.",
+    "stack": [
+      "CAD",
+      "PETG",
+      "CoreXY",
+      "0.2mm layers"
+    ],
+    "role": "Design and Print",
+    "images": [],
+    "features": [
+      "A short headline for what you made",
+      "Another detail, like you would tell a friend",
+      "One more thing you are proud of",
+      "And a final note worth knowing"
+    ],
+    "facts": [
+      {
+        "label": "Print time",
+        "value": "14 hrs"
+      },
+      {
+        "label": "Layers",
+        "value": "840"
+      },
+      {
+        "label": "Success rate",
+        "value": "100%"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The one that failed",
+        "body": "This is where a print-fail story goes. What went wrong, what you learned."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "template": "story-mode",
+    "category": "printing",
+    "title": "Project Seven",
+    "summary": "A short, friendly pitch will live here once we fill it in.",
+    "stack": [
+      "CAD",
+      "PLA",
+      "0.1mm layers"
+    ],
+    "role": "Design and Print",
+    "images": [],
+    "features": [],
+    "facts": [
+      {
+        "label": "Print time",
+        "value": "22 hrs"
+      },
+      {
+        "label": "Layers",
+        "value": "1,320"
+      },
+      {
+        "label": "Success rate",
+        "value": "95%"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Where it started",
+        "body": "This is where the idea for this print came from."
+      },
+      {
+        "title": "How it ended",
+        "body": "This is where the result and what you learned goes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "template": "feature-grid",
+    "category": "printing",
+    "title": "Project Eight",
+    "summary": "A short, friendly pitch will live here once we fill it in.",
+    "stack": [
+      "Fusion 360",
+      "ABS",
+      "Print in place"
+    ],
+    "role": "Design and Print",
+    "images": [],
+    "features": [
+      "One headline fact",
+      "A stat or photo",
+      "A clever detail",
+      "Something that surprised you",
+      "The part you are proudest of",
+      "And a lesson worth keeping"
+    ],
+    "facts": [
+      {
+        "label": "Print time",
+        "value": "9 hrs"
+      },
+      {
+        "label": "Layers",
+        "value": "540"
+      },
+      {
+        "label": "Success rate",
+        "value": "90%"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The fun part",
+        "body": "A light, memorable moment from this build, written when we fill it in."
+      }
+    ]
+  }
+]
