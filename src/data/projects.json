@@ -109,7 +109,7 @@
       },
       {
         "title": "Why tradespeople first",
-        "body": "Write it when ready: what I learned watching tradespeople handle quoting today, and why voice changes that."
+        "body": "Quote-writing eats evenings. Most trades quote through WhatsApp or pen and paper, then chase payment one message at a time. Voice-first quoting meets them where the work happens, so the paperwork happens once instead of three times."
       }
     ],
     "category": "software",
@@ -241,24 +241,7 @@
       }
     ],
     "features": [],
-    "facts": [
-      {
-        "label": "Revenue tracked",
-        "value": "2.57M"
-      },
-      {
-        "label": "Portfolio margin",
-        "value": "26.6%"
-      },
-      {
-        "label": "Currencies",
-        "value": "6"
-      },
-      {
-        "label": "Languages",
-        "value": "4"
-      }
-    ],
+    "facts": [],
     "stories": [
       {
         "title": "The workflow before this",
@@ -267,6 +250,24 @@
       {
         "title": "The hardest part",
         "body": "The worksheet. Doing spreadsheet-grade UX for 180 shots with per-discipline day rates, multi-currency totals and four languages, all without a single number drifting, was the deep end of this build."
+      }
+    ],
+    "stackNotes": [
+      {
+        "tech": "React",
+        "reason": "The whole workspace is four screens of dense, composable UI (worksheets, networks, dashboards, settings) that all share state. React component model keeps that manageable while the ecosystem covers graphs and charts."
+      },
+      {
+        "tech": "React Flow",
+        "reason": "Bid planning is a live node graph: weekly bid versions as nodes, dependencies as edges, and one active path highlighted. React Flow gives zoom, selection and edges out of the box instead of hand-rolling SVG by shot count."
+      },
+      {
+        "tech": "Spreadsheet UX",
+        "reason": "Production finance lives in spreadsheets. Planners think in rows, filters and totals, so the bid worksheet speaks that language: 180 shots, per-discipline day rates, formulas-in-place and scenario copies — with zero retraining."
+      },
+      {
+        "tech": "i18n",
+        "reason": "The studio runs across regions, so numbers have to survive translation: labels, dates and currency formatting localize across four languages without a single total drifting."
       }
     ]
   },

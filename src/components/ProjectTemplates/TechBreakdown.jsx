@@ -30,10 +30,10 @@ export default function TechBreakdown({ project }) {
   const sections = [
     ...project.facts.map((f) => ({ q: f.label, a: f.value, isFact: true })),
     ...project.stories.map((s) => ({ q: s.title, a: s.body })),
-    ...project.stack.map((s) => ({
-      q: `Why ${s}?`,
-      a: `Replace with a sentence about why ${s} was chosen for this build.`,
-    })),
+    ...project.stack.map((s) => {
+      const note = (project.stackNotes || []).find((n) => n.tech === s)
+      return { q: `Why ${s}?`, a: note ? note.reason : `Write it when ready: why ${s} was chosen for this build.` }
+    }),
   ]
 
   return (
